@@ -1,44 +1,23 @@
 https://codepen.io/shantikumarsingh/pen/RRmWxo
 
-<style type="text/css">
-        .dropdown {
-            padding-top: 9px;
-            padding-left:9px;
-        }
-        .dropdown-menu{
-            left:auto!important;
-        }
-    </style>
-
-
-<li>
-                            <div class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-                                    Dropdown Example<span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">HTML</a></li>
-                                    <li><a href="#">CSS</a></li>
-                                    <li><a href="#">JavaScript</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-                                    Dropdown Example<span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">HTML</a></li>
-                                    <li><a href="#">CSS</a></li>
-                                    <li><a href="#">JavaScript</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" runat="server">
-                                    Dropdown Example
-                                </button>
-                            </div>
-                        </li>
+// Login Panel
+<div class="container" style="margin-top: 30px">
+        <div class="col-md-offset-4 col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Sign In </strong></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Username or Email </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password </label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-success">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
